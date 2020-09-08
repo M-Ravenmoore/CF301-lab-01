@@ -12,7 +12,6 @@ aside{
 .container-250{
   height:250px;
   width:240px;
-  display:block;
   float: right;
 }
 article{
@@ -21,21 +20,35 @@ article{
 #third{
   height: 80px;
   border: 1px black solid;
-  display: block;
   clear: right;
 }
 
 /* desktop */
-@media only screen and (min-width:850px) {
-#b {
-  float:left;
+@media only screen and (min-width:768px) {
+  header{
+    height: 100px;
+  }
+
+aside {
+  float: left;
   width: 200px;
   height: 600px;
 }
 .first-row{
-  float:none;
-  clear: right;
+  float: right;
   width:380px;
-  display: inline-block;
+  height: 200px;
+
+}
+
+.container-250{
+  height:250px;
+  width:190px;
+}
+#third{
+  height:150px;
+  width:760px;
+  float:left;
+
 }
 }
