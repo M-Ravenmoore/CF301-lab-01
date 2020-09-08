@@ -1,0 +1,17 @@
+header{
+  height: 75px;
+  border: 2px black dashed;
+}
+.first-row{
+  height:125px;
+}
+
+.container-250{
+  height:250px;
+  width:240px;
+  display:block;
+  float: right;
+}
+article{
+  border: 1px black dashed;
+}

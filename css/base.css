@@ -1,22 +1,27 @@
 /* mobile */
+*{
+  box-sizing: border-box;
+}
 body{
-  width: 480;
+  width: 480px;
+  margin: auto;
   background-color: lightblue;
 }
 
 
-
-
-
+/* tab */
+@media only screen and (min-width:650px) {
+  body{
+    width: 740px;
+    background-color: lightgreen;
+  }
+}
 
 
 /* desktop */
-@media only screen and (min-width:790px) {
+@media only screen and (min-width:850px) {
   body{
     width: 960px;
     background-color: lightseagreen;
   }
 }
-
-
-@media only screen and (min-width:790px) {
