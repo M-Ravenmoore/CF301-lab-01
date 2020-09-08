@@ -1,11 +1,14 @@
 header{
   height: 75px;
-  border: 2px black dashed;
+  border: 1px black solid;
 }
 .first-row{
   height:125px;
 }
-
+aside{
+  border: 1px black solid;
+  height: 150px; 
+}
 .container-250{
   height:250px;
   width:240px;
@@ -13,5 +16,26 @@ header{
   float: right;
 }
 article{
-  border: 1px black dashed;
+  border: 1px black solid;
+}
+#third{
+  height: 80px;
+  border: 1px black solid;
+  display: block;
+  clear: right;
+}
+
+/* desktop */
+@media only screen and (min-width:850px) {
+#b {
+  float:left;
+  width: 200px;
+  height: 600px;
+}
+.first-row{
+  float:none;
+  clear: right;
+  width:380px;
+  display: inline-block;
+}
 }
