@@ -1,6 +1,13 @@
-/* mobile */
 *{
   box-sizing: border-box;
+}
+/* mobile */
+header,footer,article,aside {
+  background-color: rgba(191, 194, 7, 0.746);
+  border: 1px black solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 body{
   width: 480px;
@@ -10,19 +17,31 @@ body{
 
 
 /* tab */
-@media only screen and (min-width:540px) {
+@media only screen and (min-width:600px) and (max-width:768px) {
+  header,footer,article,aside {
+    background-color: rgba(14, 97, 39, 0.801);
+    border: 1px orange solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   body{
-    width: 740px;
-    margin: 0 auto;
-    background-color: lightgreen;
+    width: 650px;
+    margin: auto;
   }
 }
 
 
 /* desktop */
 @media only screen and (min-width:768px) {
+  header,footer,article,aside {
+    background-color: rgba(12, 47, 124, 0.746);
+    border: 1px yellow solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   body{
     width: 960px;
-    background-color: lightseagreen;
   }
 }
