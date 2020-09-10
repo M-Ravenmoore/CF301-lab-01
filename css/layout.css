@@ -1,12 +1,12 @@
+/* mobile */
+
 header{
   height: 75px;
-  border: 1px black solid;
 }
 .first-row{
   height:125px;
 }
 aside{
-  border: 1px black solid;
   height: 150px; 
 }
 .container-250{
@@ -14,13 +14,23 @@ aside{
   width:240px;
   float: right;
 }
-article{
-  border: 1px black solid;
-}
-#third{
+
+footer{
   height: 80px;
-  border: 1px black solid;
   clear: right;
+}
+
+/* tab */
+@media only screen and (min-width:600px) and (max-width:768px){
+
+  .first-row{
+    width: 325px;
+    height: 400px;
+    float: right;
+  }
+  .container-250{
+    width: 325px;
+  }
 }
 
 /* desktop */
@@ -45,7 +55,7 @@ aside {
   height:250px;
   width:190px;
 }
-#third{
+footer{
   height:150px;
   width:760px;
   float:left;
