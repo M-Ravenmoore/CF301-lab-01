@@ -10,6 +10,8 @@ header,footer,article,aside {
   align-items: center;
 }
 body{
+  grid-template-columns: auto;
+  grid-template-rows: 5 auto;
   width: 480px;
   margin: auto;
   background-color: lightblue;
