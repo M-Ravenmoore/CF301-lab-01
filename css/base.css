@@ -2,8 +2,7 @@
   box-sizing: border-box;
 }
 /* mobile */
-header,footer,article,aside{
-  background-color: rgba(191, 194, 7, 0.746);
+header,footer,article,aside {
   border: 1px black solid;
   display: flex;
   justify-content: center;
