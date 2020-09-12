@@ -8,32 +8,7 @@ header,footer,article,aside {
   justify-content: center;
   align-items: center;
 }
-.header {
-  grid-area: header;
-}
-.first{
-  grid-area: first;
-}
-.sidebar{
-  grid-area: sidebar;
-}
-#second{
-  grid-area: second;
-}
-.footer{
-  grid-area: footer;
-}
-
 body{
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  grid-template-areas: 
-    "header"
-    "sidebar"
-    "first"
-    "second"
-    "footer";
   width: 480px;
   margin: auto;
   background-color: lightblue;
@@ -63,14 +38,6 @@ body{
   }
   body{
     width: 960px;
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: 
-      "header header"
-      "sidebar first"
-      "sidebar second"
-      "sidebar footer";
     margin: auto;
     background-color: lightblue;
 
