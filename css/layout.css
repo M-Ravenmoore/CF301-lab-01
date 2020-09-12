@@ -3,22 +3,28 @@
 header{
   height: 75px;
 }
-.first-row{
-  height:125px;
-}
 aside{
   height: 150px; 
 }
+
+.first-row{
+  height: 150px;
+}
+
+.second-row{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+}
+
 .container-250{
   height:250px;
-  width:240px;
-  float: right;
 }
+
 footer{
   height: 80px;
-  clear: right;
 }
-/* tab */
+
 @media only screen and (min-width:600px) and (max-width:768px){
 
   .first-row{
@@ -36,15 +42,25 @@ footer{
     height: 100px;
   }
 aside {
-  float: left;
   width: 200px;
   height: 600px;
 }
+
+.first{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+}
+
 .first-row{
-  float: right;
   width:380px;
   height: 200px;
 
+}
+.second-row{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
 }
 .container-250{
   height:250px;
@@ -53,6 +69,5 @@ aside {
 footer{
   height:150px;
   width:760px;
-  float:left;
 }
 }
