@@ -1,0 +1,84 @@
+header{
+  background-color: aqua;
+}
+#c{
+  background-color: blueviolet;
+}
+#d{
+  background-color: cadetblue;
+}
+#f{
+  background-color: chartreuse;
+}
+#g{
+  background-color: chocolate;
+}
+#h{
+  background-color: gold;
+}
+aside{
+  background-color: blue;
+}
+
+footer{
+  background-color: aquamarine;
+}
+
+/* tab */
+@media only screen and (min-width:600px) and (max-width:768px){
+  header{
+    background-color: lightcoral;
+  }
+  #c{
+    background-color: orange;
+  }
+  #d{
+    background-color: orangered;
+  }
+  #f{
+    background-color: red;
+  }
+  #g{
+    background-color: yellow;
+  }
+  #h{
+    background-color: rgb(83, 30, 30);
+  }
+  aside{
+    background-color: salmon;
+  }
+  
+  footer{
+    background-color: palevioletred;
+  }
+}
+/* desktop */
+@media only screen and (min-width:768px) {
+  header{
+    background-color: green;
+  }
+  #c{
+    background-color: yellowgreen;
+  }
+  #d{
+    background-color: cornsilk;
+  }
+  #f{
+    background-color: navy;
+  }
+  #g{
+    background-color: lawngreen;
+  }
+  #h{
+    background-color: plum;
+  }
+  aside{
+    background-color: burlywood;
+  }
+  
+  footer{
+    background-color: darkgoldenrod;
+  }
+}
+
+}
