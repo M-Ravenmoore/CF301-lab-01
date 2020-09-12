@@ -14,12 +14,10 @@ aside{
   width:240px;
   float: right;
 }
-
 footer{
   height: 80px;
   clear: right;
 }
-
 /* tab */
 @media only screen and (min-width:600px) and (max-width:768px){
 
@@ -32,13 +30,11 @@ footer{
     width: 325px;
   }
 }
-
 /* desktop */
 @media only screen and (min-width:768px) {
   header{
     height: 100px;
   }
-
 aside {
   float: left;
   width: 200px;
@@ -50,7 +46,6 @@ aside {
   height: 200px;
 
 }
-
 .container-250{
   height:250px;
   width:190px;
@@ -59,6 +54,5 @@ footer{
   height:150px;
   width:760px;
   float:left;
-
 }
 }
